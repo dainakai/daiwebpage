@@ -1,0 +1,58 @@
+/* components/styles/NewsList.css */
+:root {
+  --newsbox-light: #f5f5f5;
+  --newsbox-light-hover: #eee;
+  --newsbox-dark: #01102B;
+  --newsbox-dark-hover: #021538;
+  --newsbox-text-light: #333;
+  --newsbox-text-dark: #f5f5f5;
+}
+
+.light-mode {
+  .news-list-item {
+    background-color: var(--newsbox-light);
+    color: var(--newsbox-text-light);
+  }
+  .news-list-item:hover {
+    background-color: var(--newsbox-light-hover);
+  }
+  .news-list-item h6 {
+    color: var(--newsbox-text-light);
+  }
+}
+
+.dark-mode {
+  .news-list-item {
+    background-color: var(--newsbox-dark);
+    color: var(--newsbox-text-dark);
+  }
+  .news-list-item:hover {
+    background-color: var(--newsbox-dark-hover);
+  }
+  .news-list-item h6 {
+    color: var(--newsbox-text-dark);
+  }
+}
+
+
+.news-list-container h2 {
+  margin-bottom: 10px;
+}
+
+.news-list-contents {
+  padding: 0px 12px 12px 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.news-list-item {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  color: #333;
+  text-decoration: none;
+  margin: 10px;
+  width: calc(90% - 20px);
+}

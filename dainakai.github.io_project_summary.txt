@@ -1,0 +1,1568 @@
+# dainakai.github.io
+
+## Directory Structure
+
+- dainakai.github.io/
+  - public/
+  - docs/
+  - scripts/
+  - src/
+    - logo.svg
+    - setupTests.js
+    - data/
+    - App.test.js
+    - reportWebVitals.js
+    - index.js
+    - lastUpdate.js
+    - App.css
+    - index.css
+    - App.js
+    - components/
+      - NewsItem_en.js
+      - styles/
+        - NewsItem.css
+        - NewsItemBox.css
+        - achievements.css
+        - NewsList.css
+      - TipsItem_en.js
+      - home.js
+      - NewsItem.js
+      - achievements_en.js
+      - contactme_en.js
+      - researches.js
+      - links.js
+      - home_en.js
+      - researches_en.js
+      - aboutme_en.js
+      - NewsList_en.js
+      - NewsList.js
+      - TipsList_en.js
+      - links_en.js
+      - TipsItem.js
+      - achievements.js
+      - TipsList.js
+      - contactme.js
+      - aboutme.js
+
+## File Contents
+
+### src/logo.svg
+
+```
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.9 595.3"><g fill="#61DAFB"><path d="M666.3 296.5c0-32.5-40.7-63.3-103.1-82.4 14.4-63.6 8-114.2-20.2-130.4-6.5-3.8-14.1-5.6-22.4-5.6v22.3c4.6 0 8.3.9 11.4 2.6 13.6 7.8 19.5 37.5 14.9 75.7-1.1 9.4-2.9 19.3-5.1 29.4-19.6-4.8-41-8.5-63.5-10.9-13.5-18.5-27.5-35.3-41.6-50 32.6-30.3 63.2-46.9 84-46.9V78c-27.5 0-63.5 19.6-99.9 53.6-36.4-33.8-72.4-53.2-99.9-53.2v22.3c20.7 0 51.4 16.5 84 46.6-14 14.7-28 31.4-41.3 49.9-22.6 2.4-44 6.1-63.6 11-2.3-10-4-19.7-5.2-29-4.7-38.2 1.1-67.9 14.6-75.8 3-1.8 6.9-2.6 11.5-2.6V78.5c-8.4 0-16 1.8-22.6 5.6-28.1 16.2-34.4 66.7-19.9 130.1-62.2 19.2-102.7 49.9-102.7 82.3 0 32.5 40.7 63.3 103.1 82.4-14.4 63.6-8 114.2 20.2 130.4 6.5 3.8 14.1 5.6 22.5 5.6 27.5 0 63.5-19.6 99.9-53.6 36.4 33.8 72.4 53.2 99.9 53.2 8.4 0 16-1.8 22.6-5.6 28.1-16.2 34.4-66.7 19.9-130.1 62-19.1 102.5-49.9 102.5-82.3zm-130.2-66.7c-3.7 12.9-8.3 26.2-13.5 39.5-4.1-8-8.4-16-13.1-24-4.6-8-9.5-15.8-14.4-23.4 14.2 2.1 27.9 4.7 41 7.9zm-45.8 106.5c-7.8 13.5-15.8 26.3-24.1 38.2-14.9 1.3-30 2-45.2 2-15.1 0-30.2-.7-45-1.9-8.3-11.9-16.4-24.6-24.2-38-7.6-13.1-14.5-26.4-20.8-39.8 6.2-13.4 13.2-26.8 20.7-39.9 7.8-13.5 15.8-26.3 24.1-38.2 14.9-1.3 30-2 45.2-2 15.1 0 30.2.7 45 1.9 8.3 11.9 16.4 24.6 24.2 38 7.6 13.1 14.5 26.4 20.8 39.8-6.3 13.4-13.2 26.8-20.7 39.9zm32.3-13c5.4 13.4 10 26.8 13.8 39.8-13.1 3.2-26.9 5.9-41.2 8 4.9-7.7 9.8-15.6 14.4-23.7 4.6-8 8.9-16.1 13-24.1zM421.2 430c-9.3-9.6-18.6-20.3-27.8-32 9 .4 18.2.7 27.5.7 9.4 0 18.7-.2 27.8-.7-9 11.7-18.3 22.4-27.5 32zm-74.4-58.9c-14.2-2.1-27.9-4.7-41-7.9 3.7-12.9 8.3-26.2 13.5-39.5 4.1 8 8.4 16 13.1 24 4.7 8 9.5 15.8 14.4 23.4zM420.7 163c9.3 9.6 18.6 20.3 27.8 32-9-.4-18.2-.7-27.5-.7-9.4 0-18.7.2-27.8.7 9-11.7 18.3-22.4 27.5-32zm-74 58.9c-4.9 7.7-9.8 15.6-14.4 23.7-4.6 8-8.9 16-13 24-5.4-13.4-10-26.8-13.8-39.8 13.1-3.1 26.9-5.8 41.2-7.9zm-90.5 125.2c-35.4-15.1-58.3-34.9-58.3-50.6 0-15.7 22.9-35.6 58.3-50.6 8.6-3.7 18-7 27.7-10.1 5.7 19.6 13.2 40 22.5 60.9-9.2 20.8-16.6 41.1-22.2 60.6-9.9-3.1-19.3-6.5-28-10.2zM310 490c-13.6-7.8-19.5-37.5-14.9-75.7 1.1-9.4 2.9-19.3 5.1-29.4 19.6 4.8 41 8.5 63.5 10.9 13.5 18.5 27.5 35.3 41.6 50-32.6 30.3-63.2 46.9-84 46.9-4.5-.1-8.3-1-11.3-2.7zm237.2-76.2c4.7 38.2-1.1 67.9-14.6 75.8-3 1.8-6.9 2.6-11.5 2.6-20.7 0-51.4-16.5-84-46.6 14-14.7 28-31.4 41.3-49.9 22.6-2.4 44-6.1 63.6-11 2.3 10.1 4.1 19.8 5.2 29.1zm38.5-66.7c-8.6 3.7-18 7-27.7 10.1-5.7-19.6-13.2-40-22.5-60.9 9.2-20.8 16.6-41.1 22.2-60.6 9.9 3.1 19.3 6.5 28.1 10.2 35.4 15.1 58.3 34.9 58.3 50.6-.1 15.7-23 35.6-58.4 50.6zM320.8 78.4z"/><circle cx="420.9" cy="296.5" r="45.7"/><path d="M520.5 78.1z"/></g></svg>
+```
+
+### src/setupTests.js
+
+```
+// jest-dom adds custom jest matchers for asserting on DOM nodes.
+// allows you to do things like:
+// expect(element).toHaveTextContent(/react/i)
+// learn more: https://github.com/testing-library/jest-dom
+import '@testing-library/jest-dom';
+
+```
+
+### src/App.test.js
+
+```
+import { render, screen } from '@testing-library/react';
+import App from './App';
+
+test('renders learn react link', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/learn react/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
+```
+
+### src/reportWebVitals.js
+
+```
+const reportWebVitals = onPerfEntry => {
+  if (onPerfEntry && onPerfEntry instanceof Function) {
+    import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
+      getCLS(onPerfEntry);
+      getFID(onPerfEntry);
+      getFCP(onPerfEntry);
+      getLCP(onPerfEntry);
+      getTTFB(onPerfEntry);
+    });
+  }
+};
+
+export default reportWebVitals;
+
+```
+
+### src/index.js
+
+```
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router } from 'react-router-dom';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <Router basename={process.env.PUBLIC_URL}>
+    <App />
+  </Router>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+
+```
+
+### src/lastUpdate.js
+
+```
+export const LAST_UPDATE = '2024/04/26';
+```
+
+### src/App.css
+
+```
+/* App.css */
+.App {
+  font-size: 16px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #1f1f1f;
+  padding: 30px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.header_link_title {
+  color: inherit;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.header_title {
+  margin: 0;
+  display: flex;
+}
+
+.header_menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center; /* 追加 */
+}
+
+.header_link {
+  color: #ccc;
+  text-decoration: none;
+  padding: 8px 16px;
+  transition: color 0.3s;
+  font-size: 18px;
+}
+
+.header_link:hover {
+  color: white;
+}
+
+.header_active_link {
+  color: #61dafb;
+  border-bottom: 2px solid #61dafb;
+}
+
+.App-body {
+  position: relative;
+  overflow: hidden;
+  min-height: calc(100vh - 200px);
+  max-width: 95%;
+  margin: 0 auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* .App-body.open {
+  transform: translateY(100px);
+} */
+
+.App-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.contactmeimg {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.figcap {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* ページ遷移のアニメーション */
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in;
+}
+
+/* ハンバーガーメニュー */
+.hamburger_menu {
+  display: none;
+  cursor: pointer;
+  z-index: 2000;
+  position: absolute;
+  margin-right: 20px;
+  margin-top: 13px;
+}
+
+.hamburger_menu_line {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 10px;
+  transition: 0.4s;
+}
+
+.hamburger_menu.open .hamburger_menu_line:nth-child(1) {
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.hamburger_menu.open .hamburger_menu_line:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger_menu.open .hamburger_menu_line:nth-child(3) {
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.mobile_menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1f1f1f;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(-100%);
+  z-index: 1000; /* 追加 */
+}
+
+.mobile_menu.open {
+  transform: translateY(13px);
+}
+
+.mobile_menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile_menu li {
+  margin-bottom: 10px;
+}
+
+.mobile_menu a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.mobile_menu a:hover {
+  color: white;
+}
+
+@media (max-width: 930px) {
+  .App-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header_menu {
+    display: none;
+  }
+
+  .hamburger_menu {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+
+  .mobile_menu {
+    display: block;
+  }
+
+  .App-body {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 600px) {
+  .App-body {
+    padding: 40px;
+  }
+}
+```
+
+### src/index.css
+
+```
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+```
+
+### src/App.js
+
+```
+// App.js
+import './App.css';
+import { Route, Routes, NavLink, useLocation, useNavigate } from 'react-router-dom';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import { Home } from './components/home';
+import { Home_en } from './components/home_en';
+import { AboutMe } from './components/aboutme';
+import { AboutMe_en } from './components/aboutme_en';
+import { Researches } from './components/researches';
+import { Researches_en } from './components/researches_en';
+import { Achievements } from './components/achievements';
+import { Achievements_en } from './components/achievements_en';
+import { Links } from './components/links';
+import { Links_en } from './components/links_en';
+import { ContactMe } from './components/contactme';
+import { ContactMe_en } from './components/contactme_en';
+import { NewsItem } from './components/NewsItem';
+import { NewsItem_en } from './components/NewsItem_en';
+import { NewsList } from './components/NewsList';
+import { NewsList_en } from './components/NewsList_en';
+import { TipsItem } from './components/TipsItem';
+import { TipsItem_en } from './components/TipsItem_en';
+import { TipsList } from './components/TipsList';
+import { TipsList_en } from './components/TipsList_en';
+import React, { useEffect, useState } from 'react';
+import { LAST_UPDATE } from './lastUpdate';
+import Helmet from 'react-helmet';
+
+// ページ遷移にフェードイン・アウトのアニメーションを適用
+const routes = {
+  ja: [
+    { path: '/', name: 'Home', Component: Home },
+    { path: '/aboutme', name: 'About Me', Component: AboutMe },
+    { path: '/researches', name: 'Research', Component: Researches },
+    { path: '/achievements', name: 'Achievements', Component: Achievements },
+    { path: '/links', name: 'Links', Component: Links },
+    { path: '/contactme', name: 'Contact Me', Component: ContactMe },
+    { path: '/tips', name: 'Tips', Component: TipsList },
+    { path: '/tips/:id', name: 'Tips Item', Component: TipsItem },
+    { path: '/news/:id', name: 'News Item', Component: NewsItem },
+    { path: '/news', name: 'News List', Component: NewsList },],
+  en: [
+    { path: '/en', name: 'Home', Component: Home_en },
+    { path: '/en/aboutme', name: 'About Me', Component: AboutMe_en },
+    { path: '/en/researches', name: 'Research', Component: Researches_en },
+    { path: '/en/achievements', name: 'Achievements', Component: Achievements_en },
+    { path: '/en/links', name: 'Links', Component: Links_en },
+    { path: '/en/contactme', name: 'Contact Me', Component: ContactMe_en },
+    { path: '/en/tips', name: 'Tips', Component: TipsList_en },
+    { path: '/en/tips/:id', name: 'Tips Item', Component: TipsItem_en },
+    { path: '/en/news/:id', name: 'News Item', Component: NewsItem_en },
+    { path: '/en/news', name: 'News List', Component: NewsList_en },],
+};
+
+function App() {
+  let location = useLocation();
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleHamburgerClick = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const [lang, setLang] = useState(() => {
+    const storedLang = localStorage.getItem('lang');
+    if (storedLang) {
+      return storedLang;
+    } else {
+      const pathname = window.location.pathname;
+      return pathname.startsWith('/en') ? 'en' : 'ja';
+    }
+  });
+
+  useEffect(() => {
+    const currentPath = location.pathname;
+    const newLang = currentPath.startsWith('/en') ? 'en' : 'ja';
+    if (newLang !== lang) {
+      setLang(newLang);
+      localStorage.setItem('lang', newLang);
+    }
+  }, [location, lang]);
+
+  const navigate = useNavigate();
+
+  const handleLanguageChange = () => {
+    const newLang = lang === 'ja' ? 'en' : 'ja';
+    setLang(newLang);
+    localStorage.setItem('lang', newLang);
+    const currentPath = location.pathname;
+    const newPath = newLang === 'en' ? `/en${currentPath}` : currentPath.replace(/^\/en/, '');
+    navigate(newPath);
+    setIsOpen(false);
+  };
+
+
+  // useEffect(() => {
+  //   const currentRoute = routes[lang].find(route => route.path === location.pathname);
+  //   if (currentRoute) {
+  //     if (currentRoute.name === 'Home') {
+  //       // 言語に応じてタイトルを変更
+  //       document.title = lang === 'ja' ? '中井 大 (Dai Nakai) 京都工芸繊維大学大学院' : 'Dai Nakai, Kyoto Institute of Technology';
+  //     } else if (currentRoute.name !== 'News Item' && currentRoute.name !== 'Tips Item') {
+  //       document.title = lang === 'ja' ? `${currentRoute.name} | 中井 大 (Dai Nakai) 京都工芸繊維大学大学院` : `${currentRoute.name} | Dai Nakai, Kyoto Institute of Technology`;
+  //     }
+  //   }
+  // }, [location]);
+
+  return (
+    <div className="App">
+      {/* <Helmet>
+        <title>{document.title}</title>
+      </Helmet> */}
+      <header className="App-header">
+        <h1 className='header_title'><NavLink exact to={lang === 'ja' ? '/' : '/en'} className="header_link_title" onClick={() => setIsOpen(false)}>Dai Nakai</NavLink></h1>
+        <nav className="header_nav">
+          <ul className='header_menu'>
+            {routes[lang].slice(1, 7).map(route => (
+              <li key={route.path}>
+                <NavLink
+                  to={route.path}
+                  className="header_link"
+                  activeClassName="header_active_link"
+                >
+                  {route.name}
+                </NavLink>
+              </li>
+            ))}
+            <li>
+              <span
+                onClick={handleLanguageChange}
+                className="header_link"
+                style={{ cursor: 'pointer' }}
+              >
+                {lang === 'ja' ? '🇬🇧English' : '🇯🇵日本語'}
+              </span>
+            </li>
+          </ul>
+        </nav>
+        <div className={`hamburger_menu ${isOpen ? 'open' : ''}`} onClick={handleHamburgerClick}>
+          <div className="hamburger_menu_line"></div>
+          <div className="hamburger_menu_line"></div>
+          <div className="hamburger_menu_line"></div>
+        </div>
+      </header>
+
+      <nav className={`mobile_menu ${isOpen ? 'open' : ''}`}>
+        <ul>
+          {routes[lang].slice(1, 7).map(route => (
+            <li key={route.path}>
+              <NavLink
+                to={route.path}
+                className="header_link"
+                activeClassName="header_active_link"
+                onClick={() => setIsOpen(false)}
+              >
+                {route.name}
+              </NavLink>
+            </li>
+          ))}
+          <li>
+            <span
+              onClick={handleLanguageChange}
+              className="header_link"
+              style={{ cursor: 'pointer' }}
+            >
+              {lang === 'ja' ? '🇬🇧English' : '🇯🇵日本語'}
+            </span>
+          </li>
+        </ul>
+      </nav>
+
+      <div className={`App-body ${isOpen ? 'open' : ''}`}>
+        <TransitionGroup>
+          <CSSTransition
+            key={location.key}
+            timeout={{ enter: 300, exit: 300 }}
+            classNames="fade"
+          >
+            <Routes location={location}>
+              {Object.entries(routes).map(([_, languageRoutes]) =>
+                languageRoutes.map(({ path, Component }) => (
+                  <Route key={path} path={path} element={<Component />} />
+                ))
+              )}
+            </Routes>
+          </CSSTransition>
+        </TransitionGroup>
+      </div>
+        <footer className="App-footer">
+          <p className='footer_text'>Latest update: {LAST_UPDATE}
+           © 2024 Dai Nakai</p>
+        </footer>
+    </div>
+  );
+}
+
+export default App;
+```
+
+### src/components/NewsItem_en.js
+
+```
+// components/NewsItem.js
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+import { Paper, Typography } from '@mui/material';
+import { newsData_en } from '../data/newsData_en';
+import './styles/NewsItem.css';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw';
+import Helmet from 'react-helmet';
+
+export const NewsItem_en = ({ newsItem }) => {
+  const { id } = useParams();
+  const [content, setMarkdown] = useState('');
+  const item = newsItem || (id && newsData_en.find(item => item.id === id));
+
+  useEffect(() => {
+    if (item) {
+      fetch(`/en/newsItems/${item.contentFile}`)
+        .then(response => response.text())
+        .then(markdown => setMarkdown(markdown))
+        .catch(error => console.error('Error fetching markdown file:', error));
+    }
+  }, [item]);
+
+  if (!item) {
+    return <Typography variant="h4">News item not found</Typography>;
+  }
+
+  return (
+    <div>
+      <Helmet>
+        <title>{item.title} | Dai Nakai, Kyoto Institute of Technology</title>
+      </Helmet>
+      <Paper elevation={5} className="news-item-container">
+        <Typography variant="h6" component="h3" gutterBottom>
+          {item.title}
+        </Typography>
+        <Typography variant="subtitle2" color="textSecondary" gutterBottom>
+          {item.date}
+        </Typography>
+        <ReactMarkdown
+          remarkPlugins={[remarkGfm]}
+          rehypePlugins={[rehypeRaw]}
+          skipHtml={true}
+          components={{
+            a: ({ node, ...props }) => (
+              <a
+                {...props}
+                target="_blank"
+                rel="noopener noreferrer"
+              />
+            ),
+          }}
+        >
+          {content}
+        </ReactMarkdown>
+      </Paper>
+    </div>
+  );
+};
+```
+
+### src/components/styles/NewsItem.css
+
+```
+.news-item-container {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+.news-item-container img {
+    width: min(90%, 400px);
+    height: auto;
+  }
+
+  @media (max-width: 600px) {
+    .news-item-container {
+      /* center it */
+      width: auto;
+      
+    }
+  }
+```
+
+### src/components/styles/NewsItemBox.css
+
+```
+/* components/styles/NewsItemBox.css */
+.news-item-box {
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .news-item-box:hover {
+    background-color: #f0f0f0;
+  }
+```
+
+### src/components/styles/achievements.css
+
+```
+ul {
+    list-style-type: numbers;
+}
+```
+
+### src/components/styles/NewsList.css
+
+```
+/* components/styles/NewsList.css */
+.news-list-container h2 {
+  margin-bottom: 10px;
+}
+
+.news-list-contents {
+  padding: 0px 12px 12px 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.news-list-item {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  color: #333;
+  text-decoration: none;
+  margin: 10px;
+  width: calc(90% - 20px);
+}
+
+.news-list-item:hover {
+  background-color: #eee;
+}
+```
+
+### src/components/TipsItem_en.js
+
+```
+// components/NewsItem.js
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+import { Paper, Typography } from '@mui/material';
+import { tipsData_en } from '../data/tipsData_en';
+import './styles/NewsItem.css';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw';
+import directive from 'remark-directive';
+import { visit } from 'unist-util-visit';
+import Gist from "react-gist";
+import Helmet from 'react-helmet';
+
+function reactMarkdownRemarkDirective() {
+  return (tree) => {
+    visit(
+      tree,
+      ["textDirective", "leafDirective", "containerDirective"],
+      (node) => {
+        node.data = {
+          hName: node.name,
+          hProperties: node.attributes,
+          ...node.data
+        };
+        return node;
+      }
+    );
+  };
+}
+
+export const TipsItem_en = ({ tipsItem }) => {
+  const { id } = useParams();
+  const [content, setMarkdown] = useState('');
+  const item = tipsItem || (id && tipsData_en.find(item => item.id === id));
+
+  useEffect(() => {
+    if (item) {
+      fetch(`/en/tipsItems/${item.contentFile}`)
+        .then(response => response.text())
+        .then(markdown => setMarkdown(markdown))
+        .catch(error => console.error('Error fetching markdown file:', error));
+    }
+  }, [item]);
+
+  if (!item) {
+    return <Typography variant="h4">Tips item not found</Typography>;
+  }
+
+  return (
+    <div>
+      <Helmet>
+        <title>{item.title} | Dai Nakai, Kyoto Institute of Technology</title>
+      </Helmet>
+      <Paper elevation={5} className="news-item-container">
+        <Typography variant="h5" component="h3" gutterBottom fontWeight="bold">
+          {item.title}
+        </Typography>
+        <Typography variant="subtitle2" color="textSecondary" gutterBottom>
+          {item.date}
+        </Typography>
+        <ReactMarkdown
+          remarkPlugins={[remarkGfm, directive, reactMarkdownRemarkDirective]}
+          rehypePlugins={[rehypeRaw]}
+          components={{
+            a: ({ node, ...props }) => (
+              <a
+                {...props}
+                target="_blank"
+                rel="noopener noreferrer"
+              />
+            ),
+            gist: ({ node, ...props }) => (
+              <div>
+                <Gist id={props.id} your_name="dainakai" />
+              </div>
+              
+            ),
+          }}
+        >
+          {content}
+        </ReactMarkdown>
+      </Paper>
+    </div>
+  );
+};
+```
+
+### src/components/home.js
+
+```
+// components/home.js
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Button, Typography } from '@mui/material';
+import { newsData } from '../data/newsData';
+import './styles/NewsList.css';
+import Helmet from 'react-helmet';
+
+export const Home = () => {
+  let recentNews = newsData.slice(0, 5);
+  return (
+    <div className="home">
+      <Helmet>
+        <title>中井 大 (Dai Nakai) 京都工芸繊維大学大学院</title>
+      </Helmet>
+      <Typography variant="h4" gutterBottom>Welcome!</Typography>
+      <Typography variant="body1" paragraph>
+        Hi. My name is Dai Nakai. I am a Ph.D. student at Kyoto Institute of Technology.
+      </Typography>
+      <Typography variant="body1" paragraph>
+        中井 大のウェブページへようこそ。京都工芸繊維大学大学院 機械設計学専攻 計測システム工学研究室に所属しています。
+      </Typography>
+      <div className='news_feed'>
+        <Typography variant="h5" gutterBottom>News!</Typography>
+        <div className="news-list-contents">
+          {recentNews.map(item => (
+            <Link key={item.id} to={`/news/${item.id}`} className="news-list-item">
+              <Typography variant="h6">{item.title}</Typography>
+              <Typography variant="subtitle2" color="textSecondary">
+                {item.date}
+              </Typography>
+            </Link>
+          ))}
+        </div>
+        <div className="view_all" style={{ textAlign: 'center' }}>
+          <Button component={Link} to="/news" variant="text">
+            View all
+          </Button>
+        </div>
+      </div>
+    </div>
+
+  );
+}
+```
+
+### src/components/NewsItem.js
+
+```
+// components/NewsItem.js
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+import { Paper, Typography } from '@mui/material';
+import { newsData } from '../data/newsData';
+import './styles/NewsItem.css';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw';
+import Helmet from 'react-helmet';
+
+export const NewsItem = ({ newsItem }) => {
+  const { id } = useParams();
+  const [content, setMarkdown] = useState('');
+  const item = newsItem || (id && newsData.find(item => item.id === id));
+
+  useEffect(() => {
+    if (item) {
+      fetch(`/newsItems/${item.contentFile}`)
+        .then(response => response.text())
+        .then(markdown => setMarkdown(markdown))
+        .catch(error => console.error('Error fetching markdown file:', error));
+    }
+  }, [item]);
+
+  if (!item) {
+    return <Typography variant="h4">News item not found</Typography>;
+  }
+
+  return (
+    <div>
+      <Helmet>
+        <title>{item.title} | 中井 大 (Dai Nakai) 京都工芸繊維大学大学院</title>
+      </Helmet>
+      <Paper elevation={5} className="news-item-container">
+        <Typography variant="h6" component="h3" gutterBottom>
+          {item.title}
+        </Typography>
+        <Typography variant="subtitle2" color="textSecondary" gutterBottom>
+          {item.date}
+        </Typography>
+        <ReactMarkdown
+          remarkPlugins={[remarkGfm]}
+          rehypePlugins={[rehypeRaw]}
+          skipHtml={true}
+          components={{
+            a: ({ node, ...props }) => (
+              <a
+                {...props}
+                target="_blank"
+                rel="noopener noreferrer"
+              />
+            ),
+          }}
+        >
+          {content}
+        </ReactMarkdown>
+      </Paper>
+    </div>
+  );
+};
+```
+
+### src/components/achievements_en.js
+
+```
+import './styles/achievements.css'
+import Helmet from 'react-helmet';
+
+export const Achievements_en = () => {
+    return (
+        <div className="achievements">
+            <Helmet>
+                <title>Achievements | Dai Nakai, Kyoto Institute of Technology</title>
+            </Helmet>
+            <h2 className='achievements_title'>Achievements</h2>
+            <h3>Publication</h3>
+                <ul>
+                    <li><b>Nakai, D.</b>, & Tanaka, Y., “In-Line Digital Holographic Reconstruction by Using GPU Programming with Python”, Advanced Experimental Mechanics, 7, pp.169-173, (2022). <a href='https://doi.org/10.11395/aem.7.0_169' target="_blank" rel="noopener noreferrer">https://doi.org/10.11395/aem.7.0_169</a> </li>
+                    <li><b>Nakai, D.</b>, & Tanaka, Y., “Spatial Frequency Analysis of Holograms of Two Droplets in Close Proximity”, Advanced Experimental Mechanics, 8, pp.33-38, (2023). <a href='https://doi.org/10.11395/aem.8.0_33' target="_blank" rel="noopener noreferrer">https://doi.org/10.11395/aem.8.0_33</a></li>
+                    <li>Tanaka, Y., & <b>Nakai, D.</b>, “Particle Size Measurement Using a Phase Retrieval Holography System with a GPU-Equipped SBC”, KONA Powder and Particle Journal, 2024002. (Advanced online publication) <a href='https://doi.org/10.14356/kona.2024002' target="_blank" rel="noopener noreferrer">https://doi.org/10.14356/kona.2024002</a></li>
+                </ul>
+            <h3>International Conference (Presenting Author)</h3>
+                <ul>
+                    <li><b>Nakai, D.</b>, & Tanaka, Y., “Study on a Holographic Pattern and its Spectral Distribution Formed by Two Approaching Spheres”, The 32nd International Symposium on Imaging, Sensing, and Optical Memory, C000607, Sapporo, Aug. 2022.</li>
+                    <li><b>Nakai, D.</b>, & Tanaka, Y., “Effect of Depth-Position Displacement of Approaching Microdroplet Pairs on Holographic Patterns”, International Workshop on Advanced Experimental Mechanics for Students and Young Researchers 2022, A050, Online, Nov. 2022.</li>
+                    <li><b>Nakai, D.</b>, & Tanaka, Y., “Measurement of Nanoliter Droplets in a Microchannel Using Phase Retrieval Holography”, The 11th International Conference on Multiphase Flow, #790, Kobe, Nov. 2022.</li>
+                    <li><b>Nakai, D.</b>, & Tanaka, Y., “Holographic Collision Analysis of Microdroplets: Data Augmentation with OpenFOAM”, ASME-JSME-KSME Fluids Engineering Division 2023, #3-09-1-04, Osaka, Jul. 2023.</li>
+                    <li><b>Nakai, D.</b>, & Tanaka, Y., “Recognition of Approaching Droplet Holograms using Image Recognition Models”, International Workshop on Advanced Experimental Mechanics for Students and Young Researchers 2023, A042, Osaka, Nov. 2023.</li>
+                </ul>
+            <h3>Domestic Conference (Presenting Author)</h3>
+                <ul>
+                    <li><b>中井 大</b>, 田中 洋介, 村田 滋, “ディジタルホログラフィによる空間内微小液滴の衝突検知と推論プロセスの可視化”, 第49回可視化情報シンポジウム, 088, オンライン, 2020/09. 発表日:2021年9月11日</li>
+                    <li><b>中井 大</b>, 田中 洋介, “機械学習に基づく時系列ホログラムの微小液滴衝突検知”, 日本機械学会 関西学生会2021年度学生員卒業研究発表講演会, SS3-(13)-3, 2022/3,（オンライン口頭発表）発表日:2022年3月15日</li>
+                    <li><b>中井 大</b>, 田中 洋介, “微小液滴ホログラムのためのCNNベース衝突検知モデルの評価”, 可視化情報学会 第50回可視化情報シンポジウム, 東京 工学院大学, 2021/8. 発表日:2022年8月8日</li>
+                    <li><b>中井 大</b>, 田中 洋介, “インライン位相回復ホログラフィによるボールレンズの形状計測”, 日本実験力学会 2022年度年次講演会, 鳥取 鳥取大学, 2021/08. 発表日:2022年8月24日</li>
+                    <li><b>中井 大</b>, 田中 洋介, “液滴衝突における2液滴間距離がホログラフィックパターンに与える影響”, 日本光学会年次学術講演会 Optics & Photonics Japan 2022, 栃木 宇都宮大学, 2022/11. 発表日:2022年11月13日</li>
+                    <li><b>中井 大</b>, 田中 洋介, “機械学習を用いたマイクロ液滴近接検出”, 日本機械学会関西支部 第98期定時総会講演会, 京都 京都工芸繊維大学, 2023/03. 発表日:2023年3月16日</li>
+                    <li><b>中井 大</b>, 田中 洋介, “Julia × GPU によるホログラフィック微粒子計測”, 日本実験力学会 光学的手法分科会研究会, つくば 産総研つくばセンター, 2023/07. 発表日:2023年7月4日</li>
+                    <li><b>中井 大</b>, 田中 洋介, “奥行方向距離を持つ近接液滴組のホログラフィックパターンとそのスペクトル分布に関する実験的研究”, 日本実験力学会 2023年度年次講演会, 和歌山 和歌山城ホール, 2023/08. 発表日:2023年8月29日</li>
+                    <li><b>中井 大</b>, 田中 洋介, “GPU搭載シングルボードコンピュータと２台のカメラによるリアルタイム位相回復ホログラフィ再生処理モジュールの開発”, 高速度イメージングとフォトニクスに関する総合シンポジウム2023, 東大阪 近畿大学, 2023/12. 発表日:2023年12月14日</li>
+                </ul>
+        </div>
+    );
+}
+```
+
+### src/components/contactme_en.js
+
+```
+import Helmet from 'react-helmet';
+
+export const ContactMe_en = () => {
+    return (
+        <div className="contactme">
+            <Helmet>
+                <title>Contact Me | Dai Nakai, Kyoto Institute of Technology</title>
+            </Helmet>
+            <h2 className='contactme_title'>Contact</h2>
+            <p className='contactme_text'>If you want to contact me, please email at <a href="mailto:d4821002@edu.kit.ac.jp">d4821002 at edu.kit.ac.jp</a> (please replace 'at' with '@')</p>
+            {/* ./home/topimage_2023_0614.jpg をページサイズの90%で表示。画像下部にコメント */}
+            <figure className="contactmeimg">
+                <img src="/img/home/topimage_2023_0614.jpg" alt="topimage" width="90%" />
+                <figcaption className="figcap">Lovely scenery of the Kamo River in Kyoto</figcaption>
+            </figure>
+        </div>
+    );
+}
+```
+
+### src/components/researches.js
+
+```
+import Helmet from 'react-helmet';
+
+export const Researches = () => {
+    return (
+        <div className="researches">
+            <Helmet>
+                <title>Research | 中井 大 (Dai Nakai) 京都工芸繊維大学大学院</title>
+            </Helmet>
+            <h2 className='researches_title'>Research</h2>
+                <h3>Digital holography  （ディジタルホログラフィ）</h3>
+                    <p className='researches_text'>
+                        ホログラフィは、観測したい物体を通過して記録された光の干渉の様子から、物体の３次元情報を再生する技術です。記録された光場をホログラムと呼び、カメラ（イメージセンサ）を用いてホログラムを記録し３次元情報を再生する手法を特にディジタルホログラフィと呼びます。
+                    </p>
+                <h3>Cloud microphysics  （雲の微物理）</h3>
+                    <p className='researches_text'>
+                        雲の微物理について
+
+                    </p>
+                <h3>Machine learning    （機械学習）</h3>
+                    <p className='researches_text'>
+                        機械学習について
+
+                    </p>
+        </div>
+    );
+}
+```
+
+### src/components/links.js
+
+```
+import Helmet from 'react-helmet';
+
+export const Links = () => {
+    return (
+        <div className="links">
+            <Helmet>
+                <title>Links | 中井 大 (Dai Nakai) 京都工芸繊維大学大学院</title>
+            </Helmet>
+            <h2 className='links_title'>Links</h2>
+            <h3>Researchmap</h3>
+            <a href="https://researchmap.jp/dainakai/" target="_blank" rel="noopener noreferrer">https://researchmap.jp/dainakai/</a>
+            <h3>ResearchGate</h3>
+            <a href="https://www.researchgate.net/profile/Dai-Nakai" target="_blank" rel="noopener noreferrer">https://www.researchgate.net/profile/Dai-Nakai</a>
+            <h3>ORCiD</h3>
+            <a href="https://orcid.org/0000-0002-6819-2825" target="_blank" rel="noopener noreferrer">https://orcid.org/0000-0002-6819-2825</a>
+            <h3>計測システム工学研究室</h3>
+            <a href="http://www.measlab.kit.ac.jp/" target="_blank" rel="noopener noreferrer">http://www.measlab.kit.ac.jp/</a>
+            <h3>京都工芸繊維大学</h3>
+            <a href="http://www.kit.ac.jp/" target="_blank" rel="noopener noreferrer">http://www.kit.ac.jp/</a>
+        </div>
+    );
+}
+```
+
+### src/components/home_en.js
+
+```
+// components/home.js
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Button, Typography } from '@mui/material';
+import { newsData_en } from '../data/newsData_en';
+import './styles/NewsList.css';
+import Helmet from 'react-helmet';
+
+export const Home_en = () => {
+  let recentNews = newsData_en.slice(0, 5);
+  return (
+    <div className="home">
+      <Helmet>
+        <title>Dai Nakai, Kyoto Institute of Technology</title>
+      </Helmet>
+      <Typography variant="h4" gutterBottom>Welcome!</Typography>
+      <Typography variant="body1" paragraph>
+        Hi! My name is Dai Nakai. I am a Ph.D. student at Kyoto Institute of Technology. 
+
+        {/* 以下に、このサイトの英語版がClaude 3 Opusによる機械翻訳であり私の十分なチェックがまだ完了していないことを知らせる簡潔な文言 */}
+        <h3>Please note that the English content on this site is machine-translated by Claude 3 Opus and has not yet been thoroughly reviewed by the author.</h3>
+      </Typography>
+      <div className='news_feed'>
+        <Typography variant="h5" gutterBottom>News!</Typography>
+        {/* {recentNews.map((item, index) => (
+          <NewsItemBox key={index} newsItem={item} />
+        ))} */}
+        <div className="news-list-contents">
+          {recentNews.map(item => (
+            <Link key={item.id} to={`/en/news/${item.id}`} className="news-list-item">
+              <Typography variant="h6">{item.title}</Typography>
+              <Typography variant="subtitle2" color="textSecondary">
+                {item.date}
+              </Typography>
+            </Link>
+          ))}
+        </div>
+        <div className="view_all" style={{ textAlign: 'center' }}>
+          <Button component={Link} to="/en/news" variant="text">
+            View all
+          </Button>
+        </div>
+      </div>
+    </div>
+
+  );
+}
+```
+
+### src/components/researches_en.js
+
+```
+import Helmet from 'react-helmet';
+
+export const Researches_en = () => {
+    return (
+        <div className="researches">
+            <Helmet>
+                <title>Research | Dai Nakai, Kyoto Institute of Technology</title>
+            </Helmet>
+            <h2 className='researches_title'>Research</h2>
+                <h3>Digital holography</h3>
+                    <p className='researches_text'>
+                    Holography is a technique that reconstructs the 3D information of an object from the recorded interference pattern of light that has passed through the object of interest. The recorded light field is called a hologram, and the method of recording the hologram using a camera (image sensor) and reconstructing the 3D information is specifically referred to as digital holography.
+                    </p>
+                    still in preparation. sorry!
+                <h3>Cloud microphysics</h3>
+                    <p className='researches_text'>
+                        
+
+                    </p>
+                <h3>Machine learning</h3>
+                    <p className='researches_text'>
+                        
+
+                    </p>
+        </div>
+    );
+}
+```
+
+### src/components/aboutme_en.js
+
+```
+import Helmet from 'react-helmet';
+
+export const AboutMe_en = () => {
+    return (
+        <div className="aboutme">
+            <Helmet>
+                <title>About Me | Dai Nakai, Kyoto Institute of Technology</title>
+            </Helmet>
+            <h2 className='aboutme_title'>About me</h2>
+            <h3 className='aboutme_title'>Profile</h3>
+            <p className='aboutme_text'>
+                <ur>
+                    <li>Name: Dai Nakai</li>
+                    <li>Degree: Master of Engineering</li>
+                    <li>Research interests: Particle measurement by digital holography, observation of cloud droplet coalescence, image processing by NVIDIA GPU, application of vision models to holography</li>
+                    <li>What I do on weekends: Jazz trumpet (<a href="https://www.youtube.com/watch?v=yFB-KJGaTWs">video from undergrad circle days</a>, <a href="https://www.youtube.com/watch?v=CykqvBYCX-0">more recent combo live</a>), Tale of Genji, mahjong game</li>
+                </ur>
+            </p>
+            <h3 className='aboutme_title'>Education</h3>
+            <p className='aboutme_text'>
+                <table>
+                    <tr>
+                        <td>April 2018:</td>
+                        <td>Entered the Undergraduate Program of Mechanical Engineering, Kyoto Institute of Technology</td>
+                    </tr>
+                    <tr>
+                        <td>March 2022:</td>
+                        <td> Completed the Undergraduate Program of Mechanical Engineering, Kyoto Institute of Technology</td>
+                    </tr>
+                    <tr>
+                        <td>April 2022:</td>
+                        <td>Entered the Master's Program of Mechanodesign, Kyoto Institute of Technology</td>
+                    </tr>
+                    <tr>
+                        <td>March 2024:</td>
+                        <td>Completed the Master's Program of Mechanodesign, Kyoto Institute of Technology</td>
+                    </tr>
+                    <tr>
+                        <td>April 2024:</td>
+                        <td>Entered the Doctoral Program of Engineering Design, Kyoto Institute of Technology</td>
+                    </tr>
+                </table>
+            </p>
+            <h3 className='aboutme_title'>Career</h3>
+            <p className='aboutme_text'>
+                <ur>
+                    <li>April 2024-: The Japan Society for the Promotion of Science (JSPS)’s Research Fellowships for Young Scientists DC1.</li>
+                </ur>
+            </p>
+            <h3 className='aboutme_title'>Academic Memberships</h3>
+            <p className='aboutme_text'>
+                <ur>
+                    <li>日本機械学会 The Japanese Society for Mechanical Engineers <a href="https://www.jsme.or.jp/">https://www.jsme.or.jp/</a> </li>
+                    <li>日本混相流学会 The Japanese Society for Multiphase Flow <a href="http://www.jsmf.gr.jp/">http://www.jsmf.gr.jp/</a></li>
+                    <li>日本気象学会 The Meteorological Society of Japan <a href="https://www.metsoc.jp/">https://www.metsoc.jp/</a></li>
+                </ur>
+            </p>
+
+        </div>
+    );
+}
+```
+
+### src/components/NewsList_en.js
+
+```
+// components/NewsList.js
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Typography } from '@mui/material';
+import { newsData_en } from '../data/newsData_en';
+import './styles/NewsList.css';
+import Helmet from 'react-helmet';
+
+export const NewsList_en = () => {
+  return (
+    <div className="news-list-container">
+      <Helmet>
+        <title>News | Dai Nakai, Kyoto Institute of Technology</title>
+      </Helmet>
+      <Typography variant="h4" component="h2" gutterBottom>
+        News List
+      </Typography>
+      <div className="news-list-contents">
+        {newsData_en.map(item => (
+          <Link key={item.id} to={`/en/news/${item.id}`} className="news-list-item">
+            <Typography variant="h6">{item.title}</Typography>
+            <Typography variant="subtitle2" color="textSecondary">
+              {item.date}
+            </Typography>
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+};
+```
+
+### src/components/NewsList.js
+
+```
+// components/NewsList.js
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Typography } from '@mui/material';
+import { newsData } from '../data/newsData';
+import './styles/NewsList.css';
+import Helmet from 'react-helmet';
+
+export const NewsList = () => {
+  return (
+    <div className="news-list-container">
+      <Helmet>
+        <title>News | 中井 大 (Dai Nakai) 京都工芸繊維大学大学院</title>
+      </Helmet>
+      <Typography variant="h4" component="h2" gutterBottom>
+        News List
+      </Typography>
+      <div className="news-list-contents">
+        {newsData.map(item => (
+          <Link key={item.id} to={`/news/${item.id}`} className="news-list-item">
+            <Typography variant="h6">{item.title}</Typography>
+            <Typography variant="subtitle2" color="textSecondary">
+              {item.date}
+            </Typography>
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+};
+```
+
+### src/components/TipsList_en.js
+
+```
+// components/NewsList.js
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Typography } from '@mui/material';
+import { tipsData_en } from '../data/tipsData_en';
+import './styles/NewsList.css';
+import Helmet from 'react-helmet';
+
+export const TipsList_en = () => {
+  return (
+    <div className="news-list-container">
+      <Helmet>
+        <title>Tips | Dai Nakai, Kyoto Institute of Technology</title>
+      </Helmet>
+      <Typography variant="h4" component="h2" gutterBottom>
+        Tips
+      </Typography>
+      <div className="news-list-contents">
+        {tipsData_en.map(item => (
+          <Link key={item.id} to={`/en/tips/${item.id}`} className="news-list-item">
+            <Typography variant="h6">{item.title}</Typography>
+            <Typography variant="subtitle2" color="textSecondary">
+              {item.date}
+            </Typography>
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+};
+```
+
+### src/components/links_en.js
+
+```
+import Helmet from 'react-helmet';
+
+export const Links_en = () => {
+    return (
+        <div className="links">
+            <Helmet>
+                <title>Links | Dai Nakai, Kyoto Institute of Technology</title>
+            </Helmet>
+            <h2 className='links_title'>Links</h2>
+            <h3>Researchmap</h3>
+            <a href="https://researchmap.jp/dainakai/" target="_blank" rel="noopener noreferrer">https://researchmap.jp/dainakai/</a>
+            <h3>ResearchGate</h3>
+            <a href="https://www.researchgate.net/profile/Dai-Nakai" target="_blank" rel="noopener noreferrer">https://www.researchgate.net/profile/Dai-Nakai</a>
+            <h3>ORCiD</h3>
+            <a href="https://orcid.org/0000-0002-6819-2825" target="_blank" rel="noopener noreferrer">https://orcid.org/0000-0002-6819-2825</a>
+            <h3>Measurement System Laboratory</h3>
+            <a href="http://www.measlab.kit.ac.jp/" target="_blank" rel="noopener noreferrer">http://www.measlab.kit.ac.jp/</a>
+            <h3>Kyoto Institute of Technology</h3>
+            <a href="http://www.kit.ac.jp/" target="_blank" rel="noopener noreferrer">http://www.kit.ac.jp/</a>
+        </div>
+    );
+}
+```
+
+### src/components/TipsItem.js
+
+```
+// components/NewsItem.js
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+import { Paper, Typography } from '@mui/material';
+import { tipsData } from '../data/tipsData';
+import './styles/NewsItem.css';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw';
+import directive from 'remark-directive';
+import { visit } from 'unist-util-visit';
+import Gist from "react-gist";
+import Helmet from 'react-helmet';
+
+function reactMarkdownRemarkDirective() {
+  return (tree) => {
+    visit(
+      tree,
+      ["textDirective", "leafDirective", "containerDirective"],
+      (node) => {
+        node.data = {
+          hName: node.name,
+          hProperties: node.attributes,
+          ...node.data
+        };
+        return node;
+      }
+    );
+  };
+}
+
+export const TipsItem = ({ tipsItem }) => {
+  const { id } = useParams();
+  const [content, setMarkdown] = useState('');
+  const item = tipsItem || (id && tipsData.find(item => item.id === id));
+
+  useEffect(() => {
+    if (item) {
+      fetch(`/tipsItems/${item.contentFile}`)
+        .then(response => response.text())
+        .then(markdown => setMarkdown(markdown))
+        .catch(error => console.error('Error fetching markdown file:', error));
+    }
+  }, [item]);
+
+  if (!item) {
+    return <Typography variant="h4">Tips item not found</Typography>;
+  }
+
+  return (
+    <div>
+      <Helmet>
+        <title>{item.title} | 中井 大 (Dai Nakai) 京都工芸繊維大学大学院</title>
+      </Helmet>
+      <Paper elevation={5} className="news-item-container">
+        <Typography variant="h5" component="h3" gutterBottom fontWeight="bold">
+          {item.title}
+        </Typography>
+        <Typography variant="subtitle2" color="textSecondary" gutterBottom>
+          {item.date}
+        </Typography>
+        <ReactMarkdown
+          remarkPlugins={[remarkGfm, directive, reactMarkdownRemarkDirective]}
+          rehypePlugins={[rehypeRaw]}
+          components={{
+            a: ({ node, ...props }) => (
+              <a
+                {...props}
+                target="_blank"
+                rel="noopener noreferrer"
+              />
+            ),
+            gist: ({ node, ...props }) => (
+              <div>
+                <Gist id={props.id} your_name="dainakai" />
+              </div>
+              
+            ),
+          }}
+        >
+          {content}
+        </ReactMarkdown>
+      </Paper>
+    </div>
+  );
+};
+```
+
+### src/components/achievements.js
+
+```
+import './styles/achievements.css'
+import Helmet from 'react-helmet';
+
+export const Achievements = () => {
+    return (
+        <div className="achievements">
+            <Helmet>
+                <title>Achievements | 中井 大 (Dai Nakai) 京都工芸繊維大学大学院</title>
+            </Helmet>
+            <h2 className='achievements_title'>Achievements</h2>
+            <h3>Publication</h3>
+                <ul>
+                    <li><b>Nakai, D.</b>, & Tanaka, Y., “In-Line Digital Holographic Reconstruction by Using GPU Programming with Python”, Advanced Experimental Mechanics, 7, pp.169-173, (2022). <a href='https://doi.org/10.11395/aem.7.0_169' target="_blank" rel="noopener noreferrer">https://doi.org/10.11395/aem.7.0_169</a> </li>
+                    <li><b>Nakai, D.</b>, & Tanaka, Y., “Spatial Frequency Analysis of Holograms of Two Droplets in Close Proximity”, Advanced Experimental Mechanics, 8, pp.33-38, (2023). <a href='https://doi.org/10.11395/aem.8.0_33' target="_blank" rel="noopener noreferrer">https://doi.org/10.11395/aem.8.0_33</a></li>
+                    <li>Tanaka, Y., & <b>Nakai, D.</b>, “Particle Size Measurement Using a Phase Retrieval Holography System with a GPU-Equipped SBC”, KONA Powder and Particle Journal, 2024002. (Advanced online publication) <a href='https://doi.org/10.14356/kona.2024002' target="_blank" rel="noopener noreferrer">https://doi.org/10.14356/kona.2024002</a></li>
+                </ul>
+            <h3>International Conference (Presenting Author)</h3>
+                <ul>
+                    <li><b>Nakai, D.</b>, & Tanaka, Y., “Study on a Holographic Pattern and its Spectral Distribution Formed by Two Approaching Spheres”, The 32nd International Symposium on Imaging, Sensing, and Optical Memory, C000607, Sapporo, Aug. 2022.</li>
+                    <li><b>Nakai, D.</b>, & Tanaka, Y., “Effect of Depth-Position Displacement of Approaching Microdroplet Pairs on Holographic Patterns”, International Workshop on Advanced Experimental Mechanics for Students and Young Researchers 2022, A050, Online, Nov. 2022.</li>
+                    <li><b>Nakai, D.</b>, & Tanaka, Y., “Measurement of Nanoliter Droplets in a Microchannel Using Phase Retrieval Holography”, The 11th International Conference on Multiphase Flow, #790, Kobe, Nov. 2022.</li>
+                    <li><b>Nakai, D.</b>, & Tanaka, Y., “Holographic Collision Analysis of Microdroplets: Data Augmentation with OpenFOAM”, ASME-JSME-KSME Fluids Engineering Division 2023, #3-09-1-04, Osaka, Jul. 2023.</li>
+                    <li><b>Nakai, D.</b>, & Tanaka, Y., “Recognition of Approaching Droplet Holograms using Image Recognition Models”, International Workshop on Advanced Experimental Mechanics for Students and Young Researchers 2023, A042, Osaka, Nov. 2023.</li>
+                </ul>
+            <h3>Domestic Conference (Presenting Author)</h3>
+                <ul>
+                    <li><b>中井 大</b>, 田中 洋介, 村田 滋, “ディジタルホログラフィによる空間内微小液滴の衝突検知と推論プロセスの可視化”, 第49回可視化情報シンポジウム, 088, オンライン, 2020/09. 発表日:2021年9月11日</li>
+                    <li><b>中井 大</b>, 田中 洋介, “機械学習に基づく時系列ホログラムの微小液滴衝突検知”, 日本機械学会 関西学生会2021年度学生員卒業研究発表講演会, SS3-(13)-3, 2022/3,（オンライン口頭発表）発表日:2022年3月15日</li>
+                    <li><b>中井 大</b>, 田中 洋介, “微小液滴ホログラムのためのCNNベース衝突検知モデルの評価”, 可視化情報学会 第50回可視化情報シンポジウム, 東京 工学院大学, 2021/8. 発表日:2022年8月8日</li>
+                    <li><b>中井 大</b>, 田中 洋介, “インライン位相回復ホログラフィによるボールレンズの形状計測”, 日本実験力学会 2022年度年次講演会, 鳥取 鳥取大学, 2021/08. 発表日:2022年8月24日</li>
+                    <li><b>中井 大</b>, 田中 洋介, “液滴衝突における2液滴間距離がホログラフィックパターンに与える影響”, 日本光学会年次学術講演会 Optics & Photonics Japan 2022, 栃木 宇都宮大学, 2022/11. 発表日:2022年11月13日</li>
+                    <li><b>中井 大</b>, 田中 洋介, “機械学習を用いたマイクロ液滴近接検出”, 日本機械学会関西支部 第98期定時総会講演会, 京都 京都工芸繊維大学, 2023/03. 発表日:2023年3月16日</li>
+                    <li><b>中井 大</b>, 田中 洋介, “Julia × GPU によるホログラフィック微粒子計測”, 日本実験力学会 光学的手法分科会研究会, つくば 産総研つくばセンター, 2023/07. 発表日:2023年7月4日</li>
+                    <li><b>中井 大</b>, 田中 洋介, “奥行方向距離を持つ近接液滴組のホログラフィックパターンとそのスペクトル分布に関する実験的研究”, 日本実験力学会 2023年度年次講演会, 和歌山 和歌山城ホール, 2023/08. 発表日:2023年8月29日</li>
+                    <li><b>中井 大</b>, 田中 洋介, “GPU搭載シングルボードコンピュータと２台のカメラによるリアルタイム位相回復ホログラフィ再生処理モジュールの開発”, 高速度イメージングとフォトニクスに関する総合シンポジウム2023, 東大阪 近畿大学, 2023/12. 発表日:2023年12月14日</li>
+                </ul>
+        </div>
+    );
+}
+```
+
+### src/components/TipsList.js
+
+```
+// components/NewsList.js
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Typography } from '@mui/material';
+import { tipsData } from '../data/tipsData';
+import './styles/NewsList.css';
+import Helmet from 'react-helmet';
+
+export const TipsList = () => {
+  return (
+    <div className="news-list-container">
+      <Helmet>
+        <title>Tips | 中井 大 (Dai Nakai) 京都工芸繊維大学大学院</title>
+      </Helmet>
+      <Typography variant="h4" component="h2" gutterBottom>
+        Tips
+      </Typography>
+      <div className="news-list-contents">
+        {tipsData.map(item => (
+          <Link key={item.id} to={`/tips/${item.id}`} className="news-list-item">
+            <Typography variant="h6">{item.title}</Typography>
+            <Typography variant="subtitle2" color="textSecondary">
+              {item.date}
+            </Typography>
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+};
+```
+
+### src/components/contactme.js
+
+```
+import Helmet from 'react-helmet';
+
+export const ContactMe = () => {
+    return (
+        <div className="contactme">
+            <Helmet>
+                <title>Contact Me | 中井 大 (Dai Nakai) 京都工芸繊維大学大学院</title>
+            </Helmet>
+            <h2 className='contactme_title'>Contact</h2>
+            <p className='contactme_text'>If you want to contact me, please email at <a href="mailto:d4821002@edu.kit.ac.jp">d4821002 at edu.kit.ac.jp</a> (please replace 'at' with '@')</p>
+            {/* ./home/topimage_2023_0614.jpg をページサイズの90%で表示。画像下部にコメント */}
+            <figure className="contactmeimg">
+                <img src="/img/home/topimage_2023_0614.jpg" alt="topimage" width="90%" />
+                <figcaption className="figcap">Lovely scenery of the Kamo River in Kyoto</figcaption>
+            </figure>
+        </div>
+    );
+}
+```
+
+### src/components/aboutme.js
+
+```
+import Helmet from 'react-helmet';
+
+export const AboutMe = () => {
+    return (
+        <div className="aboutme">
+            <Helmet>
+                <title>About Me | 中井 大 (Dai Nakai) 京都工芸繊維大学大学院</title>
+            </Helmet>
+            <h2 className='aboutme_title'>About me</h2>
+            <h3 className='aboutme_title'>Profile</h3>
+            <p className='aboutme_text'>
+                <ur>
+                    <li>氏名：中井 大（なかい だい）</li>
+                    <li>学位：修士（工学）</li>
+                    <li>研究の興味：ディジタルホログラフィによる粒子計測，雲粒併合現象の観測，NVIDIA GPUによる画像処理，ビジョンモデルのホログラフィへの活用</li>
+                    <li>趣味・特技：ジャズトランペット(<a href="https://www.youtube.com/watch?v=yFB-KJGaTWs">学部サークル時代の動画</a>，<a href="https://www.youtube.com/watch?v=CykqvBYCX-0">最近のコンボライブより</a> )，大河ドラマ『光る君へ』，麻雀</li>
+                </ur>
+            </p>
+            <h3 className='aboutme_title'>Education</h3>
+            <p className='aboutme_text'>
+                <ur>
+                    <li>2018年4月 京都工芸繊維大学 機械工学課程 入学</li>
+                    <li>2022年3月 京都工芸繊維大学 機械工学課程 卒業</li>
+                    <li>2022年4月 京都工芸繊維大学 博士前期課程 機械設計学専攻 入学</li>
+                    <li>2024年3月 京都工芸繊維大学 博士前期課程 機械設計学専攻 修了</li>
+                    <li>2024年4月- 京都工芸繊維大学 博士後期課程 設計工学専攻 入学</li>
+                </ur>
+            </p>
+            <h3 className='aboutme_title'>Career</h3>
+            <p className='aboutme_text'>
+                <ur>
+                    <li>2024年4月- 日本学術振興会特別研究員DC1</li>
+                </ur>
+            </p>
+            <h3 className='aboutme_title'>Academic Memberships</h3>
+            <p className='aboutme_text'>
+                <ur>
+                    <li>日本機械学会 The Japanese Society for Mechanical Engineers <a href="https://www.jsme.or.jp/">https://www.jsme.or.jp/</a> </li>
+                    <li>日本混相流学会 The Japanese Society for Multiphase Flow <a href="http://www.jsmf.gr.jp/">http://www.jsmf.gr.jp/</a></li>
+                    <li>日本気象学会 The Meteorological Society of Japan <a href="https://www.metsoc.jp/">https://www.metsoc.jp/</a></li>
+                </ur>
+            </p>
+
+        </div>
+    );
+}
+```
+
